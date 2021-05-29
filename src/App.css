@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  /* margin-left: 50px; */
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  animation-name: ma;
+  animation-duration: 3s;
+}
+
+@keyframes ma {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.test {
+  transition: opacity 2s ease-in;
+}
